@@ -51,8 +51,9 @@ public class WebConfig implements WebMvcConfigurer {
     //3、view-controller
     @Override
     public void addViewControllers(ViewControllerRegistry registry) {
-        registry.addViewController("/hello").setViewName("hello");
+        registry.addViewController("/hello").setViewName("hello11");
     }
+
 
     //6、文件上传解析器
     @Bean
