@@ -53,6 +53,8 @@ public class WebConfig implements WebMvcConfigurer {
     public void addViewControllers(ViewControllerRegistry registry) {
         registry.addViewController("/hello").setViewName("hello");
 
+        System.out.println("git-test");
+
     }
 
 
