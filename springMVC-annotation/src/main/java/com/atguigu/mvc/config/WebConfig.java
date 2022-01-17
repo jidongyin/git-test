@@ -56,6 +56,10 @@ public class WebConfig implements WebMvcConfigurer {
         System.out.println("git-test");
 
         System.out.println("1111111");
+        
+         System.out.println("666666666");
+        
+        
 
     }
 
